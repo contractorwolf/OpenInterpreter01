@@ -619,7 +619,7 @@ class ButtonChecker
       bool thisTickState = false;
 };
 
-ButtonChecker button = ButtonChecker(25);
+ButtonChecker button = ButtonChecker(buttonPin);
 
 void InitI2SSpeakerOrMic(int mode)
 {
